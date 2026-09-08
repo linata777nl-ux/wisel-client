@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wisel",
+  "version": "1.0.0",
+  "name": "Wisel Client",
+  "description": "Utility Client",
+  "authors": ["Wisel"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.wisel.client.WiselClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
